@@ -2,7 +2,7 @@
   Computes the Batch Cross-Entropy loss, as appears in:
   "Fast Single-Class Classification and the Principle of Logit Separation",
   Gil Keren, Sivan Sabato and Bjoern Schuller.
-  (https://arxiv.org/abs/)
+  (https://arxiv.org/abs/1705.10246)
 
 
   Args:
@@ -45,7 +45,7 @@ def batch_ce(logits, labels):
   Computes the Batch Cross-Entropy loss, as appears in:
   "Fast Single-Class Classification and the Principle of Logit Separation",
   Gil Keren, Sivan Sabato and Bjoern Schuller.
-  (https://arxiv.org/abs/)
+  (https://arxiv.org/abs/1705.10246)
 
   Args:
     logits: The logits for the batch, of shape `[batch_size, num_classes]`
